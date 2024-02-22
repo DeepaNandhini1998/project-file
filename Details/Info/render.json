@@ -1,0 +1,14 @@
+{
+    "builds": [
+      {
+        "src": "./Server.js",
+        "use": "@render/node"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "/Server.js"
+      }
+    ]
+}
